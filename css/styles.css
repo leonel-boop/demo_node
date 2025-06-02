@@ -151,12 +151,28 @@ body {
 }
 
 #map-container {
-    height: 500px;
     max-width: 1200px;
     margin: 2rem auto;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: var(--shadow);
+    background: var(--white);
+}
+
+.map-info {
+    padding: 1rem;
+    background: var(--white);
+    border-top: 3px solid var(--primary-color);
+}
+
+.map-info p {
+    margin: 0.5rem 0;
+    color: var(--dark-color);
+}
+
+.map-info i {
+    color: var(--primary-color);
+    margin-right: 0.5rem;
 }
 
 /* Footer */
